@@ -20,7 +20,7 @@ public class EmailSenderService {
         simpleMailMessage.setSubject(subject);
         mailSender.send(simpleMailMessage);
 
-        System.out.println("Mail sent successfully!!");
+        System.out.println("Mail sent successfully!!!");
     }
 
 
